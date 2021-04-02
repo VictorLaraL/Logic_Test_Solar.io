@@ -12,7 +12,11 @@ fuente: https://en.wikipedia.org/wiki/Roman_numerals
 
 como podemos observar el sistema tiene una base 10, esto quiere decir que cada que nuestra cifra sube 10 veces tenemos un nuevo símbolo, además queda decir que cada símbolo no se puede repetir más de 3 veces ( exceptuando algunos casos específicos ).
 
-Con estos datos y por el margen de tiempo para resolver el problema, procedí a realizar un algoritmo “instantáneo” con estas reglas y que haga un recorrido por los años previamente calculados, es decir, primero recopilamos los datos de entrada, hacemos los cálculos restando la fecha de inicio y fin, después con la cantidad de años ya conocida procedemos a dividir dicho número para calcular el número de símbolos necesario.
+Ahora bien, sabiendo estos datos procedemos a realizar una solución puesto que en pocas palabras lo que necesitamos es encontrar la cantidad de símbolos romanos que utiliza un número n. si sabemos que tienen una base 10, es decir, cada 10 veces un dato cambia el símbolo, podemos comenzar pensando en descomponer estos números con esta base:
+
+    -> n/x: n = número por convertir, x = la primera base en que se puede descomponer.
+
+y sabiendo que existen una limitada cantidad de símbolos sólo necesitamos alojar los valores de estos símbolos para calcular sus bases, una vez calculadas irlos agregando a un contador para conocer la cantidad necesaria de símbolos para un número n.
 
 ## Implementacion
 Despues de una previa instalacion de Python en el PC donde se utilice el programa, procedemos a abrir un shell y dentro de la carpeta donde está el modulo main.py, escribimos:
