@@ -70,3 +70,12 @@ De nueva cuenta estas relaciones (funciones o fórmulas) no podemos tomarlas com
 Una vez determinado el número de estados, dependiendo de las condiciones, podemos utilizar el mismo método para determinar el estado final que vimos en las matrices de orden cuadrado, puesto que cumple con la misma condición que cada 4 estados se regresa al estado inicial.
 
 	-> (2n-2) o (2m-1) % 4 = estado final, dentro del rango [0,3]
+
+## Implementacion
+Despues de una previa instalacion de Python en el PC donde se utilice el programa, procedemos a abrir un shell y dentro de la carpeta donde está el modulo main.py, escribimos:
+
+```
+    python main.py
+```
+
+por ultimo queda utilizar el programa como se indica dentro del mismo.
