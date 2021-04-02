@@ -1,5 +1,7 @@
 # Ejercicio2
 
+### Solucion del ejercicio 2 del repositorio: https://bitbucket.org/ManuelCan/logic/src/master/
+
 En este ejercicio, voy a establecer lo entendido del planteamiento puesto que al no recibir respuesta sobre mi duda comenzaré a emplear lo que considero que es la problemática.
 
 En particular entiendo que el problema trata de calcular la cantidad de años entre un periodo A y B y con esto buscar la conversión a números romanos, todo esto para determinar la cantidad de símbolos que se necesitan para almacenar dicha fecha en un DB.
