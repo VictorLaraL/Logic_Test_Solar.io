@@ -5,6 +5,9 @@ def main(): # Funcion pricipal, vista de consola que recolecta los datos de entr
     lista_ordenes = inpt() # Pedimos datos
 
     for orden in lista_ordenes:
+        # Ciclo donde definimos el orden y el tipo de solucion 
+        # haciendo llamados a las funciones dentro del modulo model
+        
         tipo = tipo_mat(orden)
         if tipo[0] == 0:
             estado_fin = matriz_n(tipo[1])
