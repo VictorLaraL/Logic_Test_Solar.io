@@ -11,7 +11,7 @@ def main(): # Funcion pricipal, vista de consola que recolecta los datos de entr
         else:
             estado_fin = matriz_nxm(tipo[1], tipo[2])
         
-        print(estado_fin)
+        print("\n", estado_fin)
 
 if __name__ == ("__main__"):
     main()
